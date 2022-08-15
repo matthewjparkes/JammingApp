@@ -2,7 +2,7 @@
 
 let token;
 const clientID = '697f7a38102a4e5bbd757c003b1ffb0e';
-const redirectURI = "http://localhost:3000/";
+const redirectURI = "https://willowy-beignet-5e4459.netlify.app/";
 
 
 export const Spotify = {
