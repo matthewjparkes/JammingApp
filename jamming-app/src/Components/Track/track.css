@@ -23,10 +23,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 72px;
+    height: 100px;
+    line-height: 110%;
   }
   
   .Track-information h3 {
+    margin-top: 2%;
     margin-bottom: .22rem;
   }
   
@@ -34,4 +36,16 @@
     font-size: .83rem;
     font-weight: 300;
     color: rgba(256, 256, 256, 0.8);
+  }
+
+  .Track-information audio{
+    padding: .50rem;
+    height: 20%;
+    width: 50%;
+    margin-bottom: 2%;
+  }
+
+  .NoPreview{
+    font-weight: 800;
+    margin-bottom: 2%;
   }
